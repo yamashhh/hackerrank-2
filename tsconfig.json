@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@tsconfig/strictest/tsconfig",
+    "@tsconfig/node-lts/tsconfig.json"
+  ],
+  "exclude": ["lint-staged.config.mjs"]
+}
